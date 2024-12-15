@@ -1,0 +1,2077 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C2B63912D0D90B900FC066A /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 5C2B63902D0D90B900FC066A /* RxCocoa */; };
+		5C2B63932D0D90B900FC066A /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5C2B63922D0D90B900FC066A /* RxSwift */; };
+		5C2B63EF2D0D951A00FC066A /* CallBlocker01.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5C2B63E82D0D951A00FC066A /* CallBlocker01.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5C2B64092D0D989F00FC066A /* CallBlocker02.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5C2B64062D0D986C00FC066A /* CallBlocker02.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5C2B64232D0D996B00FC066A /* CallBlocker03.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5C2B641A2D0D993100FC066A /* CallBlocker03.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5C2B64362D0D9A7200FC066A /* CallBlocker04.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5C2B642D2D0D99CF00FC066A /* CallBlocker04.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5C2B65572D0D9C7500FC066A /* CallBlocker05.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5C2B64402D0D9ACB00FC066A /* CallBlocker05.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5C2B655A2D0D9C7500FC066A /* CallBlocker06.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5C2B64492D0D9ACC00FC066A /* CallBlocker06.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5C2B655D2D0D9C7500FC066A /* CallBlocker07.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5C2B64522D0D9ACE00FC066A /* CallBlocker07.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5C2B65602D0D9C7600FC066A /* CallBlocker08.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5C2B645B2D0D9ACE00FC066A /* CallBlocker08.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5C2B65632D0D9C7600FC066A /* CallBlocker09.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5C2B64642D0D9ACF00FC066A /* CallBlocker09.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5C2B65662D0D9C7600FC066A /* CallBlocker10.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5C2B646D2D0D9ACF00FC066A /* CallBlocker10.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5C2B65702D0DA5E900FC066A /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5C2B656F2D0DA5E900FC066A /* SnapKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C2B63542D0D8F0D00FC066A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C2B63352D0D8F0B00FC066A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C2B633C2D0D8F0B00FC066A;
+			remoteInfo = Block070;
+		};
+		5C2B635E2D0D8F0D00FC066A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C2B63352D0D8F0B00FC066A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C2B633C2D0D8F0B00FC066A;
+			remoteInfo = Block070;
+		};
+		5C2B63ED2D0D951A00FC066A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C2B63352D0D8F0B00FC066A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C2B63E72D0D951A00FC066A;
+			remoteInfo = CallBlocker01;
+		};
+		5C2B640A2D0D989F00FC066A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C2B63352D0D8F0B00FC066A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C2B63FF2D0D986C00FC066A;
+			remoteInfo = CallBlocker02;
+		};
+		5C2B64242D0D996B00FC066A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C2B63352D0D8F0B00FC066A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C2B64132D0D993100FC066A;
+			remoteInfo = CallBlocker03;
+		};
+		5C2B64372D0D9A7200FC066A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C2B63352D0D8F0B00FC066A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C2B64262D0D99CF00FC066A;
+			remoteInfo = CallBlocker04;
+		};
+		5C2B65582D0D9C7500FC066A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C2B63352D0D8F0B00FC066A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C2B64392D0D9ACB00FC066A;
+			remoteInfo = CallBlocker05;
+		};
+		5C2B655B2D0D9C7500FC066A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C2B63352D0D8F0B00FC066A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C2B64422D0D9ACC00FC066A;
+			remoteInfo = CallBlocker06;
+		};
+		5C2B655E2D0D9C7600FC066A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C2B63352D0D8F0B00FC066A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C2B644B2D0D9ACE00FC066A;
+			remoteInfo = CallBlocker07;
+		};
+		5C2B65612D0D9C7600FC066A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C2B63352D0D8F0B00FC066A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C2B64542D0D9ACE00FC066A;
+			remoteInfo = CallBlocker08;
+		};
+		5C2B65642D0D9C7600FC066A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C2B63352D0D8F0B00FC066A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C2B645D2D0D9ACF00FC066A;
+			remoteInfo = CallBlocker09;
+		};
+		5C2B65672D0D9C7600FC066A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C2B63352D0D8F0B00FC066A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C2B64662D0D9ACF00FC066A;
+			remoteInfo = CallBlocker10;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5C2B63CA2D0D94C800FC066A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5C2B63EF2D0D951A00FC066A /* CallBlocker01.appex in Embed Foundation Extensions */,
+				5C2B655A2D0D9C7500FC066A /* CallBlocker06.appex in Embed Foundation Extensions */,
+				5C2B65572D0D9C7500FC066A /* CallBlocker05.appex in Embed Foundation Extensions */,
+				5C2B64362D0D9A7200FC066A /* CallBlocker04.appex in Embed Foundation Extensions */,
+				5C2B65662D0D9C7600FC066A /* CallBlocker10.appex in Embed Foundation Extensions */,
+				5C2B65632D0D9C7600FC066A /* CallBlocker09.appex in Embed Foundation Extensions */,
+				5C2B64092D0D989F00FC066A /* CallBlocker02.appex in Embed Foundation Extensions */,
+				5C2B65602D0D9C7600FC066A /* CallBlocker08.appex in Embed Foundation Extensions */,
+				5C2B655D2D0D9C7500FC066A /* CallBlocker07.appex in Embed Foundation Extensions */,
+				5C2B64232D0D996B00FC066A /* CallBlocker03.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2B63E32D0D94E500FC066A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5C2B633D2D0D8F0B00FC066A /* Block070.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Block070.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C2B63532D0D8F0D00FC066A /* Block070Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Block070Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C2B635D2D0D8F0D00FC066A /* Block070UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Block070UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C2B63E82D0D951A00FC066A /* CallBlocker01.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CallBlocker01.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C2B64062D0D986C00FC066A /* CallBlocker02.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CallBlocker02.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C2B641A2D0D993100FC066A /* CallBlocker03.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CallBlocker03.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C2B642D2D0D99CF00FC066A /* CallBlocker04.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CallBlocker04.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C2B64402D0D9ACB00FC066A /* CallBlocker05.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CallBlocker05.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C2B64492D0D9ACC00FC066A /* CallBlocker06.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CallBlocker06.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C2B64522D0D9ACE00FC066A /* CallBlocker07.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CallBlocker07.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C2B645B2D0D9ACE00FC066A /* CallBlocker08.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CallBlocker08.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C2B64642D0D9ACF00FC066A /* CallBlocker09.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CallBlocker09.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C2B646D2D0D9ACF00FC066A /* CallBlocker10.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CallBlocker10.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5C2B63BE2D0D94A400FC066A /* Exceptions for "Block070" folder in "Block070" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Core/CallBlocker/CallDirectoryHandler.swift,
+				"Core/CallBlocker/Support Files/Info.plist",
+				"Support Files/Info.plist",
+			);
+			target = 5C2B633C2D0D8F0B00FC066A /* Block070 */;
+		};
+		5C2B63F52D0D979600FC066A /* Exceptions for "Block070" folder in "CallBlocker01" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Core/CallBlocker/CallDirectoryHandler.swift,
+				Shared/Config/AppConfig.swift,
+				Shared/Config/CallBlockerConfig.swift,
+				Shared/Log/LogExtension.swift,
+			);
+			target = 5C2B63E72D0D951A00FC066A /* CallBlocker01 */;
+		};
+		5C2B64122D0D98F200FC066A /* Exceptions for "Block070" folder in "CallBlocker02" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Core/CallBlocker/CallDirectoryHandler.swift,
+				Shared/Config/AppConfig.swift,
+				Shared/Config/CallBlockerConfig.swift,
+				Shared/Log/LogExtension.swift,
+			);
+			target = 5C2B63FF2D0D986C00FC066A /* CallBlocker02 */;
+		};
+		5C2B64222D0D995E00FC066A /* Exceptions for "Block070" folder in "CallBlocker03" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Core/CallBlocker/CallDirectoryHandler.swift,
+				Shared/Config/AppConfig.swift,
+				Shared/Config/CallBlockerConfig.swift,
+				Shared/Log/LogExtension.swift,
+			);
+			target = 5C2B64132D0D993100FC066A /* CallBlocker03 */;
+		};
+		5C2B64352D0D9A4D00FC066A /* Exceptions for "Block070" folder in "CallBlocker04" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Core/CallBlocker/CallDirectoryHandler.swift,
+				Shared/Config/AppConfig.swift,
+				Shared/Config/CallBlockerConfig.swift,
+				Shared/Log/LogExtension.swift,
+			);
+			target = 5C2B64262D0D99CF00FC066A /* CallBlocker04 */;
+		};
+		5C2B65332D0D9C1C00FC066A /* Exceptions for "Block070" folder in "CallBlocker05" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Core/CallBlocker/CallDirectoryHandler.swift,
+				Shared/Config/AppConfig.swift,
+				Shared/Config/CallBlockerConfig.swift,
+				Shared/Log/LogExtension.swift,
+			);
+			target = 5C2B64392D0D9ACB00FC066A /* CallBlocker05 */;
+		};
+		5C2B653A2D0D9C2500FC066A /* Exceptions for "Block070" folder in "CallBlocker06" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Core/CallBlocker/CallDirectoryHandler.swift,
+				Shared/Config/AppConfig.swift,
+				Shared/Config/CallBlockerConfig.swift,
+				Shared/Log/LogExtension.swift,
+			);
+			target = 5C2B64422D0D9ACC00FC066A /* CallBlocker06 */;
+		};
+		5C2B65412D0D9C2F00FC066A /* Exceptions for "Block070" folder in "CallBlocker07" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Core/CallBlocker/CallDirectoryHandler.swift,
+				Shared/Config/AppConfig.swift,
+				Shared/Config/CallBlockerConfig.swift,
+				Shared/Log/LogExtension.swift,
+			);
+			target = 5C2B644B2D0D9ACE00FC066A /* CallBlocker07 */;
+		};
+		5C2B65482D0D9C3800FC066A /* Exceptions for "Block070" folder in "CallBlocker08" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Core/CallBlocker/CallDirectoryHandler.swift,
+				Shared/Config/AppConfig.swift,
+				Shared/Config/CallBlockerConfig.swift,
+				Shared/Log/LogExtension.swift,
+			);
+			target = 5C2B64542D0D9ACE00FC066A /* CallBlocker08 */;
+		};
+		5C2B654F2D0D9C4300FC066A /* Exceptions for "Block070" folder in "CallBlocker09" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Core/CallBlocker/CallDirectoryHandler.swift,
+				Shared/Config/AppConfig.swift,
+				Shared/Config/CallBlockerConfig.swift,
+				Shared/Log/LogExtension.swift,
+			);
+			target = 5C2B645D2D0D9ACF00FC066A /* CallBlocker09 */;
+		};
+		5C2B65562D0D9C4D00FC066A /* Exceptions for "Block070" folder in "CallBlocker10" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Core/CallBlocker/CallDirectoryHandler.swift,
+				Shared/Config/AppConfig.swift,
+				Shared/Config/CallBlockerConfig.swift,
+				Shared/Log/LogExtension.swift,
+			);
+			target = 5C2B64662D0D9ACF00FC066A /* CallBlocker10 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5C2B633F2D0D8F0B00FC066A /* Block070 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5C2B63BE2D0D94A400FC066A /* Exceptions for "Block070" folder in "Block070" target */,
+				5C2B63F52D0D979600FC066A /* Exceptions for "Block070" folder in "CallBlocker01" target */,
+				5C2B64122D0D98F200FC066A /* Exceptions for "Block070" folder in "CallBlocker02" target */,
+				5C2B64222D0D995E00FC066A /* Exceptions for "Block070" folder in "CallBlocker03" target */,
+				5C2B64352D0D9A4D00FC066A /* Exceptions for "Block070" folder in "CallBlocker04" target */,
+				5C2B65332D0D9C1C00FC066A /* Exceptions for "Block070" folder in "CallBlocker05" target */,
+				5C2B653A2D0D9C2500FC066A /* Exceptions for "Block070" folder in "CallBlocker06" target */,
+				5C2B65412D0D9C2F00FC066A /* Exceptions for "Block070" folder in "CallBlocker07" target */,
+				5C2B65482D0D9C3800FC066A /* Exceptions for "Block070" folder in "CallBlocker08" target */,
+				5C2B654F2D0D9C4300FC066A /* Exceptions for "Block070" folder in "CallBlocker09" target */,
+				5C2B65562D0D9C4D00FC066A /* Exceptions for "Block070" folder in "CallBlocker10" target */,
+			);
+			path = Block070;
+			sourceTree = "<group>";
+		};
+		5C2B63562D0D8F0D00FC066A /* Block070Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Block070Tests;
+			sourceTree = "<group>";
+		};
+		5C2B63602D0D8F0D00FC066A /* Block070UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Block070UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C2B633A2D0D8F0B00FC066A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C2B65702D0DA5E900FC066A /* SnapKit in Frameworks */,
+				5C2B63932D0D90B900FC066A /* RxSwift in Frameworks */,
+				5C2B63912D0D90B900FC066A /* RxCocoa in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2B63502D0D8F0D00FC066A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2B635A2D0D8F0D00FC066A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2B63E52D0D951A00FC066A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2B64012D0D986C00FC066A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2B64152D0D993100FC066A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2B64282D0D99CF00FC066A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2B643B2D0D9ACB00FC066A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2B64442D0D9ACC00FC066A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2B644D2D0D9ACE00FC066A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2B64562D0D9ACE00FC066A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2B645F2D0D9ACF00FC066A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2B64682D0D9ACF00FC066A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C2B63342D0D8F0B00FC066A = {
+			isa = PBXGroup;
+			children = (
+				5C2B633F2D0D8F0B00FC066A /* Block070 */,
+				5C2B63562D0D8F0D00FC066A /* Block070Tests */,
+				5C2B63602D0D8F0D00FC066A /* Block070UITests */,
+				5C2B64082D0D989F00FC066A /* Frameworks */,
+				5C2B633E2D0D8F0B00FC066A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C2B633E2D0D8F0B00FC066A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C2B633D2D0D8F0B00FC066A /* Block070.app */,
+				5C2B63532D0D8F0D00FC066A /* Block070Tests.xctest */,
+				5C2B635D2D0D8F0D00FC066A /* Block070UITests.xctest */,
+				5C2B63E82D0D951A00FC066A /* CallBlocker01.appex */,
+				5C2B64062D0D986C00FC066A /* CallBlocker02.appex */,
+				5C2B641A2D0D993100FC066A /* CallBlocker03.appex */,
+				5C2B642D2D0D99CF00FC066A /* CallBlocker04.appex */,
+				5C2B64402D0D9ACB00FC066A /* CallBlocker05.appex */,
+				5C2B64492D0D9ACC00FC066A /* CallBlocker06.appex */,
+				5C2B64522D0D9ACE00FC066A /* CallBlocker07.appex */,
+				5C2B645B2D0D9ACE00FC066A /* CallBlocker08.appex */,
+				5C2B64642D0D9ACF00FC066A /* CallBlocker09.appex */,
+				5C2B646D2D0D9ACF00FC066A /* CallBlocker10.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C2B64082D0D989F00FC066A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C2B633C2D0D8F0B00FC066A /* Block070 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C2B63662D0D8F0D00FC066A /* Build configuration list for PBXNativeTarget "Block070" */;
+			buildPhases = (
+				5C2B63392D0D8F0B00FC066A /* Sources */,
+				5C2B633A2D0D8F0B00FC066A /* Frameworks */,
+				5C2B633B2D0D8F0B00FC066A /* Resources */,
+				5C2B63CA2D0D94C800FC066A /* Embed Foundation Extensions */,
+				5C2B63E32D0D94E500FC066A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C2B63EE2D0D951A00FC066A /* PBXTargetDependency */,
+				5C2B640B2D0D989F00FC066A /* PBXTargetDependency */,
+				5C2B64252D0D996B00FC066A /* PBXTargetDependency */,
+				5C2B64382D0D9A7200FC066A /* PBXTargetDependency */,
+				5C2B65592D0D9C7500FC066A /* PBXTargetDependency */,
+				5C2B655C2D0D9C7500FC066A /* PBXTargetDependency */,
+				5C2B655F2D0D9C7600FC066A /* PBXTargetDependency */,
+				5C2B65622D0D9C7600FC066A /* PBXTargetDependency */,
+				5C2B65652D0D9C7600FC066A /* PBXTargetDependency */,
+				5C2B65682D0D9C7600FC066A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5C2B633F2D0D8F0B00FC066A /* Block070 */,
+			);
+			name = Block070;
+			packageProductDependencies = (
+				5C2B63902D0D90B900FC066A /* RxCocoa */,
+				5C2B63922D0D90B900FC066A /* RxSwift */,
+				5C2B656F2D0DA5E900FC066A /* SnapKit */,
+			);
+			productName = Block070;
+			productReference = 5C2B633D2D0D8F0B00FC066A /* Block070.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C2B63522D0D8F0D00FC066A /* Block070Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C2B636B2D0D8F0D00FC066A /* Build configuration list for PBXNativeTarget "Block070Tests" */;
+			buildPhases = (
+				5C2B634F2D0D8F0D00FC066A /* Sources */,
+				5C2B63502D0D8F0D00FC066A /* Frameworks */,
+				5C2B63512D0D8F0D00FC066A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C2B63552D0D8F0D00FC066A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5C2B63562D0D8F0D00FC066A /* Block070Tests */,
+			);
+			name = Block070Tests;
+			packageProductDependencies = (
+			);
+			productName = Block070Tests;
+			productReference = 5C2B63532D0D8F0D00FC066A /* Block070Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C2B635C2D0D8F0D00FC066A /* Block070UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C2B636E2D0D8F0D00FC066A /* Build configuration list for PBXNativeTarget "Block070UITests" */;
+			buildPhases = (
+				5C2B63592D0D8F0D00FC066A /* Sources */,
+				5C2B635A2D0D8F0D00FC066A /* Frameworks */,
+				5C2B635B2D0D8F0D00FC066A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C2B635F2D0D8F0D00FC066A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5C2B63602D0D8F0D00FC066A /* Block070UITests */,
+			);
+			name = Block070UITests;
+			packageProductDependencies = (
+			);
+			productName = Block070UITests;
+			productReference = 5C2B635D2D0D8F0D00FC066A /* Block070UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		5C2B63E72D0D951A00FC066A /* CallBlocker01 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C2B63F02D0D951A00FC066A /* Build configuration list for PBXNativeTarget "CallBlocker01" */;
+			buildPhases = (
+				5C2B63E42D0D951A00FC066A /* Sources */,
+				5C2B63E52D0D951A00FC066A /* Frameworks */,
+				5C2B63E62D0D951A00FC066A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CallBlocker01;
+			packageProductDependencies = (
+			);
+			productName = CallBlocker01;
+			productReference = 5C2B63E82D0D951A00FC066A /* CallBlocker01.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		5C2B63FF2D0D986C00FC066A /* CallBlocker02 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C2B64032D0D986C00FC066A /* Build configuration list for PBXNativeTarget "CallBlocker02" */;
+			buildPhases = (
+				5C2B64002D0D986C00FC066A /* Sources */,
+				5C2B64012D0D986C00FC066A /* Frameworks */,
+				5C2B64022D0D986C00FC066A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CallBlocker02;
+			packageProductDependencies = (
+			);
+			productName = CallBlocker01;
+			productReference = 5C2B64062D0D986C00FC066A /* CallBlocker02.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		5C2B64132D0D993100FC066A /* CallBlocker03 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C2B64172D0D993100FC066A /* Build configuration list for PBXNativeTarget "CallBlocker03" */;
+			buildPhases = (
+				5C2B64142D0D993100FC066A /* Sources */,
+				5C2B64152D0D993100FC066A /* Frameworks */,
+				5C2B64162D0D993100FC066A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CallBlocker03;
+			packageProductDependencies = (
+			);
+			productName = CallBlocker01;
+			productReference = 5C2B641A2D0D993100FC066A /* CallBlocker03.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		5C2B64262D0D99CF00FC066A /* CallBlocker04 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C2B642A2D0D99CF00FC066A /* Build configuration list for PBXNativeTarget "CallBlocker04" */;
+			buildPhases = (
+				5C2B64272D0D99CF00FC066A /* Sources */,
+				5C2B64282D0D99CF00FC066A /* Frameworks */,
+				5C2B64292D0D99CF00FC066A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CallBlocker04;
+			packageProductDependencies = (
+			);
+			productName = CallBlocker01;
+			productReference = 5C2B642D2D0D99CF00FC066A /* CallBlocker04.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		5C2B64392D0D9ACB00FC066A /* CallBlocker05 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C2B643D2D0D9ACB00FC066A /* Build configuration list for PBXNativeTarget "CallBlocker05" */;
+			buildPhases = (
+				5C2B643A2D0D9ACB00FC066A /* Sources */,
+				5C2B643B2D0D9ACB00FC066A /* Frameworks */,
+				5C2B643C2D0D9ACB00FC066A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CallBlocker05;
+			packageProductDependencies = (
+			);
+			productName = CallBlocker01;
+			productReference = 5C2B64402D0D9ACB00FC066A /* CallBlocker05.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		5C2B64422D0D9ACC00FC066A /* CallBlocker06 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C2B64462D0D9ACC00FC066A /* Build configuration list for PBXNativeTarget "CallBlocker06" */;
+			buildPhases = (
+				5C2B64432D0D9ACC00FC066A /* Sources */,
+				5C2B64442D0D9ACC00FC066A /* Frameworks */,
+				5C2B64452D0D9ACC00FC066A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CallBlocker06;
+			packageProductDependencies = (
+			);
+			productName = CallBlocker01;
+			productReference = 5C2B64492D0D9ACC00FC066A /* CallBlocker06.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		5C2B644B2D0D9ACE00FC066A /* CallBlocker07 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C2B644F2D0D9ACE00FC066A /* Build configuration list for PBXNativeTarget "CallBlocker07" */;
+			buildPhases = (
+				5C2B644C2D0D9ACE00FC066A /* Sources */,
+				5C2B644D2D0D9ACE00FC066A /* Frameworks */,
+				5C2B644E2D0D9ACE00FC066A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CallBlocker07;
+			packageProductDependencies = (
+			);
+			productName = CallBlocker01;
+			productReference = 5C2B64522D0D9ACE00FC066A /* CallBlocker07.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		5C2B64542D0D9ACE00FC066A /* CallBlocker08 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C2B64582D0D9ACE00FC066A /* Build configuration list for PBXNativeTarget "CallBlocker08" */;
+			buildPhases = (
+				5C2B64552D0D9ACE00FC066A /* Sources */,
+				5C2B64562D0D9ACE00FC066A /* Frameworks */,
+				5C2B64572D0D9ACE00FC066A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CallBlocker08;
+			packageProductDependencies = (
+			);
+			productName = CallBlocker01;
+			productReference = 5C2B645B2D0D9ACE00FC066A /* CallBlocker08.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		5C2B645D2D0D9ACF00FC066A /* CallBlocker09 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C2B64612D0D9ACF00FC066A /* Build configuration list for PBXNativeTarget "CallBlocker09" */;
+			buildPhases = (
+				5C2B645E2D0D9ACF00FC066A /* Sources */,
+				5C2B645F2D0D9ACF00FC066A /* Frameworks */,
+				5C2B64602D0D9ACF00FC066A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CallBlocker09;
+			packageProductDependencies = (
+			);
+			productName = CallBlocker01;
+			productReference = 5C2B64642D0D9ACF00FC066A /* CallBlocker09.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		5C2B64662D0D9ACF00FC066A /* CallBlocker10 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C2B646A2D0D9ACF00FC066A /* Build configuration list for PBXNativeTarget "CallBlocker10" */;
+			buildPhases = (
+				5C2B64672D0D9ACF00FC066A /* Sources */,
+				5C2B64682D0D9ACF00FC066A /* Frameworks */,
+				5C2B64692D0D9ACF00FC066A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CallBlocker10;
+			packageProductDependencies = (
+			);
+			productName = CallBlocker01;
+			productReference = 5C2B646D2D0D9ACF00FC066A /* CallBlocker10.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C2B63352D0D8F0B00FC066A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					5C2B633C2D0D8F0B00FC066A = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					5C2B63522D0D8F0D00FC066A = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 5C2B633C2D0D8F0B00FC066A;
+					};
+					5C2B635C2D0D8F0D00FC066A = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 5C2B633C2D0D8F0B00FC066A;
+					};
+					5C2B63E72D0D951A00FC066A = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 5C2B63382D0D8F0B00FC066A /* Build configuration list for PBXProject "Block070" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C2B63342D0D8F0B00FC066A;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5C2B638F2D0D90B900FC066A /* XCRemoteSwiftPackageReference "RxSwift" */,
+				5C2B656E2D0DA5E900FC066A /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5C2B633E2D0D8F0B00FC066A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C2B633C2D0D8F0B00FC066A /* Block070 */,
+				5C2B63522D0D8F0D00FC066A /* Block070Tests */,
+				5C2B635C2D0D8F0D00FC066A /* Block070UITests */,
+				5C2B63E72D0D951A00FC066A /* CallBlocker01 */,
+				5C2B63FF2D0D986C00FC066A /* CallBlocker02 */,
+				5C2B64132D0D993100FC066A /* CallBlocker03 */,
+				5C2B64262D0D99CF00FC066A /* CallBlocker04 */,
+				5C2B64392D0D9ACB00FC066A /* CallBlocker05 */,
+				5C2B64422D0D9ACC00FC066A /* CallBlocker06 */,
+				5C2B644B2D0D9ACE00FC066A /* CallBlocker07 */,
+				5C2B64542D0D9ACE00FC066A /* CallBlocker08 */,
+				5C2B645D2D0D9ACF00FC066A /* CallBlocker09 */,
+				5C2B64662D0D9ACF00FC066A /* CallBlocker10 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C2B633B2D0D8F0B00FC066A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2B63512D0D8F0D00FC066A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2B635B2D0D8F0D00FC066A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2B63E62D0D951A00FC066A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2B64022D0D986C00FC066A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2B64162D0D993100FC066A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2B64292D0D99CF00FC066A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2B643C2D0D9ACB00FC066A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2B64452D0D9ACC00FC066A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2B644E2D0D9ACE00FC066A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2B64572D0D9ACE00FC066A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2B64602D0D9ACF00FC066A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2B64692D0D9ACF00FC066A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C2B63392D0D8F0B00FC066A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2B634F2D0D8F0D00FC066A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2B63592D0D8F0D00FC066A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2B63E42D0D951A00FC066A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2B64002D0D986C00FC066A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2B64142D0D993100FC066A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2B64272D0D99CF00FC066A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2B643A2D0D9ACB00FC066A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2B64432D0D9ACC00FC066A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2B644C2D0D9ACE00FC066A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2B64552D0D9ACE00FC066A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2B645E2D0D9ACF00FC066A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C2B64672D0D9ACF00FC066A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C2B63552D0D8F0D00FC066A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C2B633C2D0D8F0B00FC066A /* Block070 */;
+			targetProxy = 5C2B63542D0D8F0D00FC066A /* PBXContainerItemProxy */;
+		};
+		5C2B635F2D0D8F0D00FC066A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C2B633C2D0D8F0B00FC066A /* Block070 */;
+			targetProxy = 5C2B635E2D0D8F0D00FC066A /* PBXContainerItemProxy */;
+		};
+		5C2B63EE2D0D951A00FC066A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C2B63E72D0D951A00FC066A /* CallBlocker01 */;
+			targetProxy = 5C2B63ED2D0D951A00FC066A /* PBXContainerItemProxy */;
+		};
+		5C2B640B2D0D989F00FC066A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C2B63FF2D0D986C00FC066A /* CallBlocker02 */;
+			targetProxy = 5C2B640A2D0D989F00FC066A /* PBXContainerItemProxy */;
+		};
+		5C2B64252D0D996B00FC066A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C2B64132D0D993100FC066A /* CallBlocker03 */;
+			targetProxy = 5C2B64242D0D996B00FC066A /* PBXContainerItemProxy */;
+		};
+		5C2B64382D0D9A7200FC066A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C2B64262D0D99CF00FC066A /* CallBlocker04 */;
+			targetProxy = 5C2B64372D0D9A7200FC066A /* PBXContainerItemProxy */;
+		};
+		5C2B65592D0D9C7500FC066A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C2B64392D0D9ACB00FC066A /* CallBlocker05 */;
+			targetProxy = 5C2B65582D0D9C7500FC066A /* PBXContainerItemProxy */;
+		};
+		5C2B655C2D0D9C7500FC066A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C2B64422D0D9ACC00FC066A /* CallBlocker06 */;
+			targetProxy = 5C2B655B2D0D9C7500FC066A /* PBXContainerItemProxy */;
+		};
+		5C2B655F2D0D9C7600FC066A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C2B644B2D0D9ACE00FC066A /* CallBlocker07 */;
+			targetProxy = 5C2B655E2D0D9C7600FC066A /* PBXContainerItemProxy */;
+		};
+		5C2B65622D0D9C7600FC066A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C2B64542D0D9ACE00FC066A /* CallBlocker08 */;
+			targetProxy = 5C2B65612D0D9C7600FC066A /* PBXContainerItemProxy */;
+		};
+		5C2B65652D0D9C7600FC066A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C2B645D2D0D9ACF00FC066A /* CallBlocker09 */;
+			targetProxy = 5C2B65642D0D9C7600FC066A /* PBXContainerItemProxy */;
+		};
+		5C2B65682D0D9C7600FC066A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C2B64662D0D9ACF00FC066A /* CallBlocker10 */;
+			targetProxy = 5C2B65672D0D9C7600FC066A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5C2B63672D0D8F0D00FC066A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Block070/Support Files/Block070.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LC8PY3D283;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Block070/Support Files/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "070전체차단";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = la;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.wannypark.Block070;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5C2B63682D0D8F0D00FC066A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Block070/Support Files/Block070.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LC8PY3D283;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Block070/Support Files/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "070전체차단";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = la;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.wannypark.Block070;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5C2B63692D0D8F0D00FC066A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C2B636A2D0D8F0D00FC066A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C2B636C2D0D8F0D00FC066A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LC8PY3D283;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.wannypark.Block070Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Block070.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Block070";
+			};
+			name = Debug;
+		};
+		5C2B636D2D0D8F0D00FC066A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LC8PY3D283;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.wannypark.Block070Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Block070.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Block070";
+			};
+			name = Release;
+		};
+		5C2B636F2D0D8F0D00FC066A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LC8PY3D283;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.wannypark.Block070UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Block070;
+			};
+			name = Debug;
+		};
+		5C2B63702D0D8F0D00FC066A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LC8PY3D283;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.wannypark.Block070UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Block070;
+			};
+			name = Release;
+		};
+		5C2B63F12D0D951A00FC066A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "Block070/Core/CallBlocker/Support Files/CallBlocker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LC8PY3D283;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Block070/Core/CallBlocker/Support Files/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = CallBlocker01;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.wannypark.Block070.CallBlocker01;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5C2B63F22D0D951A00FC066A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "Block070/Core/CallBlocker/Support Files/CallBlocker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LC8PY3D283;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Block070/Core/CallBlocker/Support Files/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = CallBlocker01;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.wannypark.Block070.CallBlocker01;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5C2B64042D0D986C00FC066A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "Block070/Core/CallBlocker/Support Files/CallBlocker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LC8PY3D283;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Block070/Core/CallBlocker/Support Files/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = CallBlocker02;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.wannypark.Block070.CallBlocker02;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5C2B64052D0D986C00FC066A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "Block070/Core/CallBlocker/Support Files/CallBlocker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LC8PY3D283;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Block070/Core/CallBlocker/Support Files/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = CallBlocker02;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.wannypark.Block070.CallBlocker02;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5C2B64182D0D993100FC066A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "Block070/Core/CallBlocker/Support Files/CallBlocker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LC8PY3D283;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Block070/Core/CallBlocker/Support Files/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = CallBlocker03;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.wannypark.Block070.CallBlocker03;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5C2B64192D0D993100FC066A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "Block070/Core/CallBlocker/Support Files/CallBlocker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LC8PY3D283;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Block070/Core/CallBlocker/Support Files/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = CallBlocker03;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.wannypark.Block070.CallBlocker03;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5C2B642B2D0D99CF00FC066A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "Block070/Core/CallBlocker/Support Files/CallBlocker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LC8PY3D283;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Block070/Core/CallBlocker/Support Files/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = CallBlocker04;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.wannypark.Block070.CallBlocker04;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5C2B642C2D0D99CF00FC066A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "Block070/Core/CallBlocker/Support Files/CallBlocker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LC8PY3D283;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Block070/Core/CallBlocker/Support Files/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = CallBlocker04;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.wannypark.Block070.CallBlocker04;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5C2B643E2D0D9ACB00FC066A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "Block070/Core/CallBlocker/Support Files/CallBlocker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LC8PY3D283;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Block070/Core/CallBlocker/Support Files/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = CallBlocker05;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.wannypark.Block070.CallBlocker05;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5C2B643F2D0D9ACB00FC066A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "Block070/Core/CallBlocker/Support Files/CallBlocker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LC8PY3D283;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Block070/Core/CallBlocker/Support Files/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = CallBlocker05;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.wannypark.Block070.CallBlocker05;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5C2B64472D0D9ACC00FC066A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "Block070/Core/CallBlocker/Support Files/CallBlocker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LC8PY3D283;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Block070/Core/CallBlocker/Support Files/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = CallBlocker06;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.wannypark.Block070.CallBlocker06;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5C2B64482D0D9ACC00FC066A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "Block070/Core/CallBlocker/Support Files/CallBlocker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LC8PY3D283;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Block070/Core/CallBlocker/Support Files/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = CallBlocker06;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.wannypark.Block070.CallBlocker06;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5C2B64502D0D9ACE00FC066A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "Block070/Core/CallBlocker/Support Files/CallBlocker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LC8PY3D283;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Block070/Core/CallBlocker/Support Files/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = CallBlocker07;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.wannypark.Block070.CallBlocker07;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5C2B64512D0D9ACE00FC066A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "Block070/Core/CallBlocker/Support Files/CallBlocker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LC8PY3D283;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Block070/Core/CallBlocker/Support Files/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = CallBlocker07;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.wannypark.Block070.CallBlocker07;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5C2B64592D0D9ACE00FC066A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "Block070/Core/CallBlocker/Support Files/CallBlocker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LC8PY3D283;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Block070/Core/CallBlocker/Support Files/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = CallBlocker08;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.wannypark.Block070.CallBlocker08;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5C2B645A2D0D9ACE00FC066A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "Block070/Core/CallBlocker/Support Files/CallBlocker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LC8PY3D283;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Block070/Core/CallBlocker/Support Files/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = CallBlocker08;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.wannypark.Block070.CallBlocker08;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5C2B64622D0D9ACF00FC066A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "Block070/Core/CallBlocker/Support Files/CallBlocker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LC8PY3D283;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Block070/Core/CallBlocker/Support Files/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = CallBlocker09;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.wannypark.Block070.CallBlocker09;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5C2B64632D0D9ACF00FC066A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "Block070/Core/CallBlocker/Support Files/CallBlocker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LC8PY3D283;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Block070/Core/CallBlocker/Support Files/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = CallBlocker09;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.wannypark.Block070.CallBlocker09;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5C2B646B2D0D9ACF00FC066A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "Block070/Core/CallBlocker/Support Files/CallBlocker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LC8PY3D283;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Block070/Core/CallBlocker/Support Files/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = CallBlocker10;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.wannypark.Block070.CallBlocker10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5C2B646C2D0D9ACF00FC066A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "Block070/Core/CallBlocker/Support Files/CallBlocker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LC8PY3D283;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Block070/Core/CallBlocker/Support Files/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = CallBlocker10;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.wannypark.Block070.CallBlocker10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C2B63382D0D8F0B00FC066A /* Build configuration list for PBXProject "Block070" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C2B63692D0D8F0D00FC066A /* Debug */,
+				5C2B636A2D0D8F0D00FC066A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C2B63662D0D8F0D00FC066A /* Build configuration list for PBXNativeTarget "Block070" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C2B63672D0D8F0D00FC066A /* Debug */,
+				5C2B63682D0D8F0D00FC066A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C2B636B2D0D8F0D00FC066A /* Build configuration list for PBXNativeTarget "Block070Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C2B636C2D0D8F0D00FC066A /* Debug */,
+				5C2B636D2D0D8F0D00FC066A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C2B636E2D0D8F0D00FC066A /* Build configuration list for PBXNativeTarget "Block070UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C2B636F2D0D8F0D00FC066A /* Debug */,
+				5C2B63702D0D8F0D00FC066A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C2B63F02D0D951A00FC066A /* Build configuration list for PBXNativeTarget "CallBlocker01" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C2B63F12D0D951A00FC066A /* Debug */,
+				5C2B63F22D0D951A00FC066A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C2B64032D0D986C00FC066A /* Build configuration list for PBXNativeTarget "CallBlocker02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C2B64042D0D986C00FC066A /* Debug */,
+				5C2B64052D0D986C00FC066A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C2B64172D0D993100FC066A /* Build configuration list for PBXNativeTarget "CallBlocker03" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C2B64182D0D993100FC066A /* Debug */,
+				5C2B64192D0D993100FC066A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C2B642A2D0D99CF00FC066A /* Build configuration list for PBXNativeTarget "CallBlocker04" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C2B642B2D0D99CF00FC066A /* Debug */,
+				5C2B642C2D0D99CF00FC066A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C2B643D2D0D9ACB00FC066A /* Build configuration list for PBXNativeTarget "CallBlocker05" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C2B643E2D0D9ACB00FC066A /* Debug */,
+				5C2B643F2D0D9ACB00FC066A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C2B64462D0D9ACC00FC066A /* Build configuration list for PBXNativeTarget "CallBlocker06" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C2B64472D0D9ACC00FC066A /* Debug */,
+				5C2B64482D0D9ACC00FC066A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C2B644F2D0D9ACE00FC066A /* Build configuration list for PBXNativeTarget "CallBlocker07" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C2B64502D0D9ACE00FC066A /* Debug */,
+				5C2B64512D0D9ACE00FC066A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C2B64582D0D9ACE00FC066A /* Build configuration list for PBXNativeTarget "CallBlocker08" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C2B64592D0D9ACE00FC066A /* Debug */,
+				5C2B645A2D0D9ACE00FC066A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C2B64612D0D9ACF00FC066A /* Build configuration list for PBXNativeTarget "CallBlocker09" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C2B64622D0D9ACF00FC066A /* Debug */,
+				5C2B64632D0D9ACF00FC066A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C2B646A2D0D9ACF00FC066A /* Build configuration list for PBXNativeTarget "CallBlocker10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C2B646B2D0D9ACF00FC066A /* Debug */,
+				5C2B646C2D0D9ACF00FC066A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5C2B638F2D0D90B900FC066A /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.8.0;
+			};
+		};
+		5C2B656E2D0DA5E900FC066A /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5C2B63902D0D90B900FC066A /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5C2B638F2D0D90B900FC066A /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		5C2B63922D0D90B900FC066A /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5C2B638F2D0D90B900FC066A /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		5C2B656F2D0DA5E900FC066A /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5C2B656E2D0DA5E900FC066A /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5C2B63352D0D8F0B00FC066A /* Project object */;
+}
