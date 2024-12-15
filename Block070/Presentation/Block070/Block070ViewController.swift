@@ -145,6 +145,9 @@ extension Block070ViewController: BaseViewProtocol {
                 /// 로딩화면 전환
                 owner.loadingView.isHidden = !isSaving
                 owner.indicator.startAnimating()
+                
+                /// 화면 자동 꺼짐 방지
+                UIApplication.shared.isIdleTimerDisabled = isSaving
             })
             .disposed(by: disposeBag)
         
@@ -164,7 +167,7 @@ extension Block070ViewController: BaseViewProtocol {
             }
             .observe(on: MainScheduler.instance)
             .subscribe(with: self, onNext: { owner, time in
-                owner.remainingTimeLabel.text = "\(time) 후 완료 예상"
+                owner.remainingTimeLabel.text = "앱을 종료하지마세요. 약 \(time) 후 완료 예상"
             })
             .disposed(by: disposeBag)
         
